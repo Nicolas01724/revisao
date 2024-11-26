@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(253, 241, 188);
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado {
+    text-align: center;
+    padding: 15px;
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: black;
+    margin: 15px;
+    gap: 2px;
+}
+
+#main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(84, 84, 85);
+    border-radius: 10px;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+}
